@@ -2,15 +2,35 @@
 <html>
 <!--Inicio do cabeçalho-->
 <head>
-	<title>Sobre</title>
+	<title>Loja</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <!--FIM do cabeçalho-->
 <!--Inicio do Corpo-->
 <body>
-	<img src="img/logo300x81.png" alt="Logotipo da Empresa">
-	<h1 id="aempresa">A Sua Empresa</h1>
+    <header class="container">
+    <!--Conteúdo do cabeçalho -->
+        <h1><img src="img/logo300x81.png" alt="Logotipo da Empresa"></h1>
+        
+        <p class="sacola">Nenhum item na sacola de compras</p>
+        
+        <nav class="menu-opcoes">
+           <ul>
+		      <li><a href="#">Aluguel</a></li>
+		      <li><a href="#">Compra e Venda</a></li>
+		      <li><a href="#">Administração de Móveis</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="#">Ajuda</a></li>
+	       </ul>
+        </nav>
+    </header>
+	
+    <h1 id="aempresa">A Sua Empresa</h1>
 
 	<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Duis consequat elit at sodales finibus.
 	 	Aenean velit justo, malesuada in posuere at, egestas quis lacus. Praesent congue metus id congue cursus.
@@ -58,10 +78,17 @@
         <li><a href="#historia">História</a></li>
     </ul>
     
-    <div id="rodape">
-        <img src="img/logo300x81.png">
-        &copy; NOME DA EMPRESA
-    </div>
+    <!-- Conteúdo do Rodapé-->
+    <footer>
+        <div class="container">
+            <img src="img/logo300x81.png" alt="Logo Sua Empresa">
+            <ul class="social">
+                <li><a href="http://facebook.com/">Facebook</a></li>
+                <li><a href="http://twitter.com/">Twitter</a></li>
+                <li><a href="http://plus.google.com/">Google+</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 <!--FIM do Corpo-->
 </html>

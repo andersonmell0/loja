@@ -6,6 +6,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <!--FIM do cabeçalho-->
 <!--Inicio do Corpo-->
@@ -25,15 +28,161 @@
               <li><a href="#">Ajuda</a></li>
 	       </ul>
         </nav>
-    <section id="main">
-        <!--Conteúdo principal -->
-    </section>
-    <section id="destaques">
-        <!--Conteúdo com destaques-->
-    </section>
+    </header>
+    <!--Conteúdo principal -->
+    <div class="container destaque">
+        <section class="busca">
+                <h2>Busca</h2>
+                <form>
+                    <input type="search">
+                    <input type="image" src="img/busca.png">
+                </form>
+        </section>
+            <!-- fim .busca -->
+        <section class="menu-tipos">
+                <h2>Tipos de Imovéis</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Apartamentos</a></li>
+                        <li><a href="#">Casas</a></li>
+                        <li><a href="#">Terrenos</a></li>
+                        <li><a href="#">Galpões</a></li>
+                        <li><a href="#">Lojas</a></li>
+                        <li><a href="#">Salas</a></li>
+                    </ul>
+                </nav>
+        </section>
+        <!-- fim .menu-tipos -->
+        <img src="img/destaque-home.png" alt="Promoção: Imóvel em Destaque">
+    </div>
+    <!-- fim .container .destaque -->
+    <div class="container paineis">
+        <!-- os paineis de novidades e mais vendidos entrarão aqui dentro -->
+        <section class="painel novidades">
+            <h2>Novidades</h2>
+            <ol>
+                <!-- primeiro produto -->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!-- coloque mais produtos aqui! -->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol>
+        </section>
+        <section class="painel mais-vendidos">
+            <h2>Mais Vendidos</h2>
+            <ol>
+            <ol>
+                <!-- primeiro produto -->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!-- coloque mais produtos aqui! -->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/casa-pequena.jpg">
+                            <figcaption>Casa Maneira por R$ 120.000,00</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol>                
+            </ol>
+        </section>
+    </div>
+    <!-- Conteúdo do Rodapé-->
     <footer>
-        <!-- Conteúdo do Rodapé-->
+        <div class="container">
+            <img src="img/logo300x81.png" alt="Logo Sua Empresa">
+            <ul class="social">
+                <li><a href="http://facebook.com/">Facebook</a></li>
+                <li><a href="http://twitter.com/">Twitter</a></li>
+                <li><a href="http://plus.google.com/">Google+</a></li>
+            </ul>
+        </div>
     </footer>
+        
 </body>
 <!--FIM do Corpo-->
 </html>
