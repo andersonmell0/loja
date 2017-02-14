@@ -64,22 +64,39 @@ header {
 .menu-tipos h2 {
     margin: 10px;
 }
-.menu-tipos li {
-    background-color: white;
-    margin-bottom: 1px;
-    padding: 5px 10px;
-}
 
-.menu-tipos a {
-    color: #333333;
-    text-decoration: none;
-}
 .menu-tipos {
     clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
+.menu-tipos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-tipos li ul {
+    display: none;
+}
+
+.menu-tipos li:hover ul {
+    display: block;
+}
+
+.menu-tipos ul ul li {
+background-color: #dcdcdc;
+}
+
+.menu-tipos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-tipos li li a:before {
+content: '-';
+padding-right: 3px;
+}
 .destaque {
     margin-top: 10px;
 }
